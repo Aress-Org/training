@@ -23,3 +23,4 @@ training/
 ### Linux
 
 - [Set Up Apache and Load an Index Page](./tasks/linux/set-up-apache-and-load-index-page.md)
+- [Install WordPress](./tasks/linux/install-wordpress.md)
