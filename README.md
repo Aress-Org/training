@@ -6,6 +6,8 @@ Hands-on training tasks for Linux, DevOps, and related topics.
 
 ```
 training/
+├── AWS/
+│   └── RDS/            # Aurora projects for Senior DBA training
 ├── templates/          # Reusable task template
 └── tasks/
     └── linux/          # Linux system administration tasks
@@ -13,12 +15,16 @@ training/
 
 ## Adding a New Task
 
-1. Copy `templates/task-template.md` into the appropriate category under `tasks/`.
+1. Copy `templates/task-template.md` into the appropriate category under `tasks/` (or `AWS/RDS/` for Aurora projects).
 2. Fill in objectives, requirements, suggested steps, verification, and deliverables.
 3. Add a row to the category `README.md` table.
 4. Open a pull request or push to the repo.
 
 ## Tasks
+
+### AWS RDS / Aurora
+
+- [AWS Aurora Projects — Senior DBA Training](./AWS/RDS/README.md): ten progressive assignments covering deployment, recovery, failover, performance, access controls, RDS Proxy, capacity and cost, migration, upgrades, and cross-Region disaster recovery.
 
 ### Linux
 
